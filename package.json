@@ -1,0 +1,19 @@
+{
+  "name": "GameInformerScrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:VicenteMerino/GameInformerScrapper.git",
+  "author": "<vicente@examedi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chrome-aws-lambda": "10.1.0",
+    "puppeteer": "10.1.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1164.0",
+    "dotenv": "^16.0.1",
+    "dynamodb-toolbox": "^0.3.5",
+    "moment": "^2.29.3",
+    "uuid": "^8.3.2"
+  }
+}
